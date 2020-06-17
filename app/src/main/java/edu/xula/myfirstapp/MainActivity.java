@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("info", "Hello, Android studio");
     }
     public void sendMessage(View view){
-        EditText editText = (EditText) findViewById(R.id.editText);
+        EditText editText = (EditText) findViewById(R.id.message);
         String message = editText.getText().toString();
         Button button = (Button) findViewById(R.id.button);
         button.setText(message);
