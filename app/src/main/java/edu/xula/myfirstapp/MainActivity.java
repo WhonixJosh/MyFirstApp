@@ -15,10 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i("info", "Hello, Android studio");
     }
-    public void sendMessage(View view){
-        EditText editText = (EditText) findViewById(R.id.message);
+
+    public void sendMessage(View view) {
+        EditText editText = (EditText) findViewById(R.id.editText);
+        //Log.i("joshua", "\n**Is editText null?\t" + editText + "**\n");
         String message = editText.getText().toString();
         Button button = (Button) findViewById(R.id.send);
         button.setText(message);
+        editText.setVisibility(view.INVISIBLE);
     }
 }
