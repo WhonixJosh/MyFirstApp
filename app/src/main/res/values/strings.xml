@@ -3,4 +3,6 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="title">Welcome, HelloApp!</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_birth">Enter Birth Year</string>
 </resources>
